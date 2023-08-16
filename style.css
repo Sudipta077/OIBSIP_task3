@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+
+*{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.outer{
+    color: black;
+    margin: auto;
+    margin-top: 10vh;
+    width: 70vw;
+    height: 80vh;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: url('back1.gif');
+    background-size: cover;    
+    border-radius: 10px;
+
+}
+body{
+    
+    width: 100vw;
+    height: 90vh;
+    margin: 0;padding: 0;border: 0;
+}
+.outer h1{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #295c74;
+    cursor:grab;
+}
+.inner{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 3.5vw;
+    width: 90%;
+    height: 80%;
+}
+.form{
+    box-sizing: border-box;
+    width: 100%;
+    height:70%;
+    
+}
+input{
+    width: 20vw;
+    height: 8vh;
+    margin-left: 8vw;
+    margin-top: 8vh;
+    font-size: 5vh;
+    padding: 5px;
+    border: 1px solid black;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+select{
+    width: 72%;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    height: 4vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit{
+    top: 40vh;
+    left: 38%;
+    transform: translateX(-60%);
+    width: 20vw;
+    height: 10vh;
+    font-size: 4vh;
+    background-color:#EEE;
+  border: 2px solid #327391;
+  border-radius: 15px;
+  
+}
+.submit:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    
+}
+h1 img{
+    height: 40px;
+    margin-top: 1.5vh;
+    mix-blend-mode: darken;
+}
+@media screen and (max-width: 390px){
+
+    body{
+        margin: 0;padding: 0;border: 0;
+        background: url('back2.gif');
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-position: center;
+    }
+    .form{
+        flex-direction: column;
+        margin-top: 10vh;
+        color: rgb(248, 239, 239);   
+
+    }
+    .submit{
+        font-size: 23px;
+        width: 25vw;
+        height: 4vh;
+        top: 55vh;
+
+    }
+    h1{
+        height: 5vh;
+        font-size: 30px;
+        margin: auto;
+    }
+    .outer{
+        margin-top: 3vh;
+        width: 90%;
+        margin-right: 1vh;
+        border: 0px;
+        box-shadow: none;
+        background:none;
+    }
+    select{
+        margin-left: 10vw;
+    }
+    input{
+        width: 70%;
+        height: 5vh;
+        margin-left: 10vw;
+    
+    }
+}
+

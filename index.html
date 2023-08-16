@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="util.css">
+</head>
+<body>
+    <div class="outer relative">
+        <h1>Temperature Converter <span><img src="temperature.gif" alt=""></span> </h1>
+           <form class="flex form" onsubmit="calculate() ;return false">
+            <div class="temp1 flex flex-col">    
+                <input id="temp1" type="number" placeholder="0">
+                <select id="unit1" class="" name="Unit">
+                    <option value="celcius">celcius</option>
+                    <option value="Farenhiet">Farenhiet</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>       
+            </div>
+
+            <div class="temp2 flex flex-col">    
+                <input id="temp2" type="number" placeholder="0">
+                <select name="Unit" id="unit2">
+                    <option value="celcius">celcius</option>
+                    <option value="Farenhiet">Farenhiet</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>     
+            </div>
+            <input class="submit absolute" type="submit" id="submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.mt{
+    margin-top: 18vh;
+    margin-left: 18vw;
+}
+.align-centre{
+    align-self: center;
+}
+.flex-col{
+    flex-direction: column;
+}
